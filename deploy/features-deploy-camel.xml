@@ -11,7 +11,7 @@
 	<!-- Camel references CXF 3.x, so you can upgrade CXF. -->
 	
 	<!--Installs camel feature names.  You still need to install the features you want.  e.g. camel-http4 -->
-	<repository>mvn:org.apache.camel.karaf/apache-camel/2.22.0/xml/features</repository>
+	<repository>mvn:org.apache.camel.karaf/apache-camel/2.24.1/xml/features</repository>
 	<!--activemq references camel versions 2.x-->
 	<!--Servicemix.activiti references camel 2.16.5!, so we won't install that.-->
 	<!--Servicemix.amq.camel references camel 2.16-2.17!, so we won't install that.-->
