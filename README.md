@@ -8,16 +8,16 @@ This lacks all servicemix's features, and lacks servicemix's testing.
 But, if all you want is Camel running in Karaf, and you will test your app, then this may suit.
 
 Versions:
-Java 8
-Karaf 4.1.5
-Camel 2.24
+Java 11
+Karaf 4.2.6
+Camel 2.24.1
 CXF 3.2.7
-ActiveMQ 5.15.4
-Hawtio 2.0.2
+ActiveMQ 5.15.9
+Hawtio 2.7.0
 
 Install:
-0) Install java 8.
-1) Download & unzip Karaf 4.1.5 (into a top-level windows folder, with no spaces in its name)
+0) Install java 11.
+1) Download & unzip Karaf 4.2.6 (into a top-level windows folder, with no spaces in its name)
 2) Optionally copy jetty.xml in the karaf/etc folder. (its just a copy of the servicemix one)
 3) review features-deploy-camel.xml adding any extra features you need.
 4) copy features-deploy-camel.xml into the deploy folder
