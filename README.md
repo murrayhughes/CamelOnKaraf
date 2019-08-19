@@ -7,7 +7,7 @@ Start with Karaf & add Camel etc.  Karaf will download them from the net.  Adjus
 This lacks all servicemix's features, and lacks servicemix's testing.
 But, if all you want is Camel running in Karaf, and you will test your app, then this may suit.
 
-Installation
+Installation.
 0) Install java 11.
 1) Download & unzip Karaf 4.2.6 (into a top-level windows folder, with no spaces in its name)
 2) Optionally copy jetty.xml in the karaf/etc folder. (its just a copy of the servicemix one)
