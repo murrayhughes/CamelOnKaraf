@@ -1,21 +1,13 @@
-# Camel On Karaf
+# Camel On Karaf Additive
 
-Makes Camel accessible because one can create routes by just editing an xml file. 
-Tired of waiting for servicemix to upgrade its dependencies...
-Here is the current Karaf version with the current Camel, CXF, ActiveMQ and Hawtio management console on top.
+Here is the current Karaf version with the current versions of Camel, CXF, ActiveMQ and Hawtio management console on top.
+Makes creating a camel route as easy as editing an xml file in the deploy folder. 
+Start with Karaf & add Camel etc.  Karaf will download them from the net.  Adjust the dependency versions by editing features-deploy-camel.xml.
 
 This lacks all servicemix's features, and lacks servicemix's testing.
 But, if all you want is Camel running in Karaf, and you will test your app, then this may suit.
 
-Versions:
-Java 11
-Karaf 4.2.6
-Camel 2.24.1
-CXF 3.2.7
-ActiveMQ 5.15.9
-Hawtio 2.7.0
-
-Install:
+Installation
 0) Install java 11.
 1) Download & unzip Karaf 4.2.6 (into a top-level windows folder, with no spaces in its name)
 2) Optionally copy jetty.xml in the karaf/etc folder. (its just a copy of the servicemix one)
